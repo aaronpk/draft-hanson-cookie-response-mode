@@ -1,0 +1,3 @@
+# Automatically generated CODEOWNERS
+# Regenerate with `make update-codeowners`
+draft-oauth-cookie-response-mode.md jared.hanson@okta.com aaron@parecki.com

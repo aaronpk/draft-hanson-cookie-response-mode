@@ -3,7 +3,7 @@ title: "OAuth Cookie Response Mode"
 abbrev: "Cookie Response Mode"
 category: info
 
-docname: draft-hanson-cookie-response-mode
+docname: draft-oauth-cookie-response-mode-latest
 submissiontype: IETF
 number:
 date:

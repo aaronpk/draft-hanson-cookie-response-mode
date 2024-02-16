@@ -3,7 +3,7 @@ title: "OAuth Cookie Response Mode"
 abbrev: "Cookie Response Mode"
 category: info
 
-docname: draft-oauth-cookie-response-mode-latest
+docname: draft-hanson-oauth-cookie-response-mode-latest
 submissiontype: IETF
 number:
 date:
@@ -17,18 +17,14 @@ venue:
 #  type: Working Group
 #  mail: oauth@example.com
 #  arch: https://example.com/WG
-  github: "aaronpk/draft-hanson-cookie-response-mode"
-  latest: "https://aaronpk.github.io/draft-hanson-cookie-response-mode/draft-oauth-cookie-response-mode.html"
+  github: "aaronpk/draft-hanson-oauth-cookie-response-mode"
+  latest: "https://aaronpk.github.io/draft-hanson-oauth-cookie-response-mode/draft-hanson-oauth-cookie-response-mode.html"
 
 author:
  -
     fullname: Jared Hanson
     organization: Okta
     email: jared.hanson@okta.com
- -
-    fullname: Aaron Parecki
-    organization: Okta
-    email: aaron@parecki.com
 
 normative:
   RFC6749:

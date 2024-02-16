@@ -3,22 +3,22 @@ title: "OAuth Cookie Response Mode"
 abbrev: "Cookie Response Mode"
 category: info
 
-docname: draft-hanson-cookie-response-mode
+docname: draft-oauth-cookie-response-mode-latest
 submissiontype: IETF
 number:
 date:
 consensus: true
 v: 3
-area: Security
-workgroup: Web Authorization Protocol
+# area: Security
+# workgroup: Web Authorization Protocol
 keyword:
 venue:
-  group: OAuth
-  type: Working Group
-  mail: oauth@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+#  group: OAuth
+#  type: Working Group
+#  mail: oauth@example.com
+#  arch: https://example.com/WG
+  github: "aaronpk/draft-hanson-cookie-response-mode"
+  latest: "https://aaronpk.github.io/draft-hanson-cookie-response-mode/draft-oauth-cookie-response-mode.html"
 
 author:
  -

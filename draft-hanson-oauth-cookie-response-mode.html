@@ -1047,7 +1047,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <time datetime="2024-02-16" class="published">16 February 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
-<dd class="intended-status">Informational</dd>
+<dd class="intended-status">Standards Track</dd>
 <dt class="label-expires">Expires:</dt>
 <dd class="expires"><time datetime="2024-08-19">19 August 2024</time></dd>
 <dt class="label-authors">Author:</dt>
@@ -1436,7 +1436,8 @@ credentials or does not contain an access token that enables access
 to the protected resource, the resource server <span class="bcp14">MAY</span> include the HTTP
 <code>WWW-Authenticate</code> response header field.<a href="#section-5.2-1" class="pilcrow">¶</a></p>
 <p id="section-5.2-2">If the resource server includes the HTTP <code>WWW-Authenticate</code> response
-header field, it <span class="bcp14">SHOULD</span> use the auth-scheme value <code>Cookie</code>.<a href="#section-5.2-2" class="pilcrow">¶</a></p>
+header field, it <span class="bcp14">SHOULD</span> use the auth-scheme value <code>Cookie</code> as defined
+by <span>[<a href="#I-D.broyer-http-cookie-auth" class="cite xref">I-D.broyer-http-cookie-auth</a>]</span>.<a href="#section-5.2-2" class="pilcrow">¶</a></p>
 <p id="section-5.2-3">For example:<a href="#section-5.2-3" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-5.2-4">
 <pre>
@@ -1498,6 +1499,10 @@ AS, depending on browser cookie restrictinos like ITP.<a href="#section-6-2" cla
 <a href="#section-9.1" class="section-number selfRef">9.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
         </h3>
 <dl class="references">
+<dt id="I-D.broyer-http-cookie-auth">[I-D.broyer-http-cookie-auth]</dt>
+        <dd>
+<span class="refAuthor">Broyer, T.</span>, <span class="refTitle">"Cookie-based HTTP Authentication"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-broyer-http-cookie-auth-00</span>, <time datetime="2009-01-04" class="refDate">4 January 2009</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-broyer-http-cookie-auth-00">https://datatracker.ietf.org/doc/html/draft-broyer-http-cookie-auth-00</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC2119">[RFC2119]</dt>
         <dd>
 <span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"Key words for use in RFCs to Indicate Requirement Levels"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 2119</span>, <span class="seriesInfo">DOI 10.17487/RFC2119</span>, <time datetime="1997-03" class="refDate">March 1997</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc2119">https://www.rfc-editor.org/rfc/rfc2119</a>&gt;</span>. </dd>

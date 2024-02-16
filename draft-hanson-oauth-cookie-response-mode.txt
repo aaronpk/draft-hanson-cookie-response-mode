@@ -4,7 +4,7 @@
 
 Network Working Group                                          J. Hanson
 Internet-Draft                                                      Okta
-Intended status: Informational                          16 February 2024
+Intended status: Standards Track                        16 February 2024
 Expires: 19 August 2024
 
 
@@ -277,7 +277,8 @@ Table of Contents
    WWW-Authenticate response header field.
 
    If the resource server includes the HTTP WWW-Authenticate response
-   header field, it SHOULD use the auth-scheme value Cookie.
+   header field, it SHOULD use the auth-scheme value Cookie as defined
+   by [I-D.broyer-http-cookie-auth].
 
    For example:
 
@@ -316,6 +317,13 @@ Table of Contents
 9.  References
 
 9.1.  Normative References
+
+   [I-D.broyer-http-cookie-auth]
+              Broyer, T., "Cookie-based HTTP Authentication", Work in
+              Progress, Internet-Draft, draft-broyer-http-cookie-auth-
+              00, 4 January 2009,
+              <https://datatracker.ietf.org/doc/html/draft-broyer-http-
+              cookie-auth-00>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,

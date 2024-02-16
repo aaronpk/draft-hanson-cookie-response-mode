@@ -1,7 +1,7 @@
 ---
 title: "OAuth Cookie Response Mode"
 abbrev: "Cookie Response Mode"
-category: info
+category: std
 
 docname: draft-hanson-oauth-cookie-response-mode-latest
 submissiontype: IETF
@@ -29,7 +29,7 @@ author:
 normative:
   RFC6749:
   RFC6265:
-
+  I-D.broyer-http-cookie-auth:
 
 informative:
   I-D.ietf-oauth-security-topics:
@@ -242,7 +242,8 @@ to the protected resource, the resource server MAY include the HTTP
 `WWW-Authenticate` response header field.
 
 If the resource server includes the HTTP `WWW-Authenticate` response
-header field, it SHOULD use the auth-scheme value `Cookie`.
+header field, it SHOULD use the auth-scheme value `Cookie` as defined
+by {{I-D.broyer-http-cookie-auth}}.
 
 For example:
 

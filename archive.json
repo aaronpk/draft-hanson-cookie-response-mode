@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-04T01:13:53.287250+00:00",
+  "timestamp": "2024-06-06T01:13:25.556366+00:00",
   "repo": "aaronpk/draft-hanson-oauth-cookie-response-mode",
   "labels": [
     {
@@ -49,6 +49,39 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOLTkmV86LEE3-",
+      "title": "Add reference to \"OAuth 2.0 Multiple Response Type Encoding Practices\"",
+      "url": "https://github.com/aaronpk/draft-hanson-oauth-cookie-response-mode/issues/1",
+      "state": "OPEN",
+      "author": "johakoch",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "As you define a new `response_mode` value, you may want to add a reference to [OAuth 2.0 Multiple Response Type Encoding Practices](https://openid.net/specs/oauth-v2-multiple-response-types-1_0.html) which defines the `response_mode` authorization request parameter.\r\n",
+      "createdAt": "2024-06-04T10:00:55Z",
+      "updatedAt": "2024-06-04T10:00:55Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOLTkmV86LEGPt",
+      "title": "Use `response_mode=cookie` in example for \"5.2 Unauthenticated Requests\"",
+      "url": "https://github.com/aaronpk/draft-hanson-oauth-cookie-response-mode/issues/2",
+      "state": "OPEN",
+      "author": "johakoch",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "In section \"5.2.  Unauthenticated Requests\" you give an example how a protected resource may respond to an unauthenticated request by\r\n* setting the `WWW-Authenticate` response header field with Thomas Broyer's `Cookie` auth scheme and\r\n* setting an HTML login form as the response body content.\r\n\r\nTo me it would seem more appropriate to give an example where the response contains a redirect to the authorization endpoint using the `response_mode=cookie` that this spec defines.",
+      "createdAt": "2024-06-04T10:03:33Z",
+      "updatedAt": "2024-06-04T10:03:33Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
